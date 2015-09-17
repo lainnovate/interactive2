@@ -1,0 +1,45 @@
+* { box-sizing: border-box}; }
+
+body {background-color:#000000;
+	background:url("exercise_2/images/12.jpg");
+
+}
+
+img {max-width:100%;
+}
+
+.container {
+    width: 600px;
+    background: #FF9933;
+    padding: 90px;
+    margin: 0 auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #ffffFF;
+    padding: 15px;
+    border: 20px inset #33CCFF;
+    margin: 100px; 
+}
+
+a {color:#33CCFF;
+	text-decoration: none;
+	transition-property: background;
+  	transition-duration: 1s;
+ 	transition-timing-function: linear;
+}
+
+a:hover {
+	font-style: italic;
+	background: purple;
+}
+
+ul {
+	list-style-type:none;
+	padding-left:40;
+}
+
+li {margin-bottom: 1em;}
+
+#ingredients li{
+	margin-bottom: 0;
+
+}
