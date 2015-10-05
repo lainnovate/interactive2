@@ -1,0 +1,19 @@
+
+.body {
+margin-left: 200px;
+margin-top: 300px;
+	border-left: 20px solid;
+	border-bottom: 20px solid;
+	border-right: 20px solid;
+width:600px;
+padding: 25px;
+font-style;
+font-size: 30px;
+font-family: 'Gill Sans';
+text-align:; right;
+line-height: 1.2em;
+}
+
+.big {font-size:40px;
+line-height: 1.3em;
+}

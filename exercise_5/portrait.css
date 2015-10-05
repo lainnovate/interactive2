@@ -1,0 +1,110 @@
+* { box-sizing: border-box}; }
+
+body {background-color:#000000;
+	background:url("exercise_2/images/12.jpg");
+
+}
+
+img {max-width:100%;
+}
+
+.container {
+    height: 82px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    background: #cccccc;
+
+}
+
+.piccontainer {
+    height:1624px;
+    width: 100%;
+    background-color: red;
+
+    }
+.pic1 {
+    height: 800px;
+    background: #000000;
+    margin-bottom: 12px;
+
+}
+.pic2 {
+    height: 800px;
+    background-color: yellow;
+    margin-bottom: 12px;
+
+}
+
+.smallpic1 {
+    height: 800px;
+    width: 678px;
+    background-color: green;
+    margin-right: 12px;
+
+}
+
+.smallpic1 {
+    height: 800px;
+    width: 50%;
+    background-color: green;
+    float: left;
+    position: inline;
+
+}
+.smallcontainer {
+    height: 800px;
+    width: 100%;
+    background-color: blue;
+}
+
+}
+
+.smallpic2 {
+    height: 800px;
+    width: 50%;
+    margin-left: 12px;
+    background-color: green;
+    position: inline;
+
+}
+.footer{
+    height: 218px;
+    width: 100%;
+    background: #cccccc;
+}
+.footer2{
+    height: 82px;
+    width: 100%;
+    background: red;
+}
+
+
+
+
+
+a {color:#33CCFF;
+	text-decoration: none;
+	transition-property: background;
+  	transition-duration: 1s;
+ 	transition-timing-function: linear;
+}
+
+a:hover {
+	font-style: italic;
+	background: purple;
+}
+
+ul {
+	list-style-type:none;
+	padding-left:40;
+}
+
+li {margin-bottom: 1em;}
+
+#ingredients li{
+	margin-bottom: 0;
+
+}

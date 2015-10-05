@@ -1,0 +1,33 @@
+padding
+border
+margin
+position
+display
+float
+top, right, bottom, left
+height, width
+div
+span
+h1, h2, h3, h4, h5, h6
+strong
+em
+ol, ul, li
+a
+p 
+
+
+.body{
+border: 2px solid;
+margin:12px;
+padding:10px;
+
+
+}
+
+.body2{
+
+border: 2px solid;
+margin:12px;
+padding:10px;
+
+}

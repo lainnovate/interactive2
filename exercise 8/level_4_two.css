@@ -1,0 +1,27 @@
+
+.body {
+
+width:5000px;
+padding: 15px;
+font-size: 40px;
+font-family: georgia;
+text-align:; right;
+
+}
+
+.bodybold {font-family: impact;
+font-size:80px;}
+
+.bodyboldbig {font-family: impact;
+font-size:120px;}
+
+.body2 {
+height: px;
+width:5000px;
+padding: 15px;
+
+font-size: 40px;
+font-family: font-family: 'Raleway', sans-serif;
+line-height: 1.5em;
+margin-left: 430px;
+}
