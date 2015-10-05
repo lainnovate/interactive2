@@ -1,27 +1,10 @@
 
 
-.body{
-height: 500px;
+.title{
 width:300px;
 margin:12px;
 padding:10px;
+border: 10px solid;
 
 
-}
-
-.body2 {
-height: 500px;
-width:300px;
-margin:12px;
-padding:10px;
-position: right;
-}
-
-
-.body3 {
-height: 800px;
-width:300px;
-margin:12px;
-padding:10px;
-	position: right;
 }
