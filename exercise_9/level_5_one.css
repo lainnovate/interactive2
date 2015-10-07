@@ -1,0 +1,99 @@
+
+
+.stout {
+margin-left:50%;
+width:325px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #DB9065;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.garbage {
+	margin-left:40%;
+margin-right:40%;
+width:385px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #93BD00;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.wash {
+	margin-left:50%;
+margin-right:50%;
+width:505px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #1637B4;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.yams {
+margin-left:30%;
+width:505px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: orange;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.grey {
+margin-left:20%;
+width:505px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #cccccc;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.coffee {
+margin-left:40%;
+width:505px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #8B4513;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.olive {
+margin-left:70%;
+width:505px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #8E8E38;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
+
+.salmon{
+margin-left:60%;
+width:505px;
+padding: 15px;
+font-size: 30px;
+line-height: 1.5em;
+background-color: #C67171;
+color: #ffffff;
+font-family: 'Bubblegum Sans';
+text-align: center;
+}
