@@ -13,7 +13,8 @@ height: 100px;
 width: 100px;
 display: inline-block;
 text-align: center;
-padding: 20px;}
+padding: 20px;
+position: fixed;}
 
 .navbox a:link {text-decoration:none};
 
