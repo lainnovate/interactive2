@@ -7,7 +7,20 @@ body {
   font-size:50px;
 }
 
+.navi {border: 8px solid;
+border-color: #cccccc;
+font-family: arial;
+height: 30px;
+width: 40px;
+display: inline-block;
+padding-top:5px;
+text-align: center;
+font-size:15px;}
 
+.navi a:link {text-decoration:none;
+color: #cccccc;}
+
+.navi a:visited {color: #cccccc;}
 .box {
   margin: 120px;
   padding: 40px 40px 40px 40px;
