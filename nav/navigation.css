@@ -1,0 +1,19 @@
+
+
+body {
+  font-family: 'tahoma';
+  text-align: center;
+  font-size:50px;
+}
+
+.navbox {border: 8px solid;
+border-color: red;
+font-family: impact;
+height: 100px;
+width: 100px;
+display: inline-block;
+text-align: center;
+padding: 20px;
+background:red;}
+
+.navbox a:link {text-decoration:none};

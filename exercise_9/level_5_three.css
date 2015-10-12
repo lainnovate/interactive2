@@ -1,67 +1,52 @@
 
 
 
-
-.body {
-	font-size: 40px;
-	color: white;
-
-line-height: 1em;
-text-align: center;
-font-family: 'Kranky';
-background-color: #20B2AA;
-padding:20px;
-  position: absolute;
-  margin: 100px;
-  width: 900px;
-  height: 900px;}
-
-
-.body2 { 
-background-color: #228B22;
-padding:20px;
-position: fixed;
-margin: 100px;
-  width: 900px;
-  height: 900px;
+body {
+  font-family: 'Kranky';
+  text-align: center;
+  font-size:50px;
 }
 
-.body3 {background-color: #2E8B57;
-margin: 100px;
-  width: 900px;
-  height: 900px;}
 
-.body4 {background-color: #2F4F4F;
-	margin: 100px;
-  width: 900px;
-  height: 900px;}
+.box {
+  margin: 120px;
+  padding: 40px 40px 40px 40px;
+  width: 856px;
+  height: 600px;
+  border: 2px solid #2F4F4F;
+/*  position: absolute;*/
+  margin-bottom: 40px;
+}
 
-  .body5 {background-color: #32CD32;
-margin: 100px;
-  width: 900px;
-  height: 900px;}
 
-.body6 {background-color: #3CB371;
-	margin: 100px;
-  width: 900px;
-  height: 900px;}
+.trash { 
+background-color: #ffffff;
+border-left: 20px solid;
+border-right: 20px solid;
+border-bottom: 20px solid;
+border-top: 0px;
+border-color: black;
+opacity: 0.9;
+padding:20px;
+position: fixed;
+bottom: 0;
+margin: 100px 100px 20px 100px;
+width: 900px;
+height: 60%;
+z-index: 2;
+}
 
-  .body7 {background-color: #40E0D0;
-margin: 100px;
-  width: 900px;
-  height: 900px;}
+.white-space {
+  position: fixed;
+  background: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
 
-.body8 {background-color: #4169E1;
-	margin: 100px;
-  width: 900px;
-  height: 900px;}
+.innards {background-color: #32CD32;
+}
 
-  .body9 {background-color: #483D8B;
-margin: 100px;
-  width: 900px;
-  height: 900px;}
-
-.body10 {background-color: #556B2F;
-	margin: 100px;
-  width: 900px;
-  height: 900px;}
+.out {z-index:3;
+font-size:70px;}
