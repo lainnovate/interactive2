@@ -22,5 +22,7 @@ padding: 20px;
 .navbox a:hover { 
     background-color: yellow;
 }
-
+a {
+    color: green;
+}
 
