@@ -1,21 +1,15 @@
-
-
-body {
-  font-family: 'tahoma';
-  text-align: center;
-  font-size:50px;
-}
-
-.navbox {border: 15px solid;
-border-color: #cccccc;
-font-family: 'Sigmar One';
-font-color: green;
-height: 90px;
-width: 100px;
-display: inline-block;
-text-align: center;
-padding: 20px;
-}
+.navbox 
+	{border: 15px solid;
+	border-color: #cccccc;
+	font-family: 'Sigmar One';
+	font-color: green;
+	height: 90px;
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	font-size:50px;
+	}
 
 .navbox a:link {text-decoration:none}
 
@@ -26,3 +20,24 @@ a {
     color: green;
 }
 
+#nav-container {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+}
+
+/* Below: this means any link that is inside of #nav-container */
+#nav-container a {
+    text-decoration:none;
+    color: #cccccc;
+    border: 8px solid;
+    border-color: #cccccc;
+    font-family: arial;
+    width: 40px;
+    padding: 10px 0;
+    display: inline-block;
+    text-align: center;
+    font-size:15px;
+}
+
+#content-body{margin-top:10%;}
