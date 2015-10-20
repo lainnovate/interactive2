@@ -38,6 +38,8 @@ a {
     display: inline-block;
     text-align: center;
     font-size:15px;
+    background-color:white;
 }
 
-#content-body{margin-top:10%;}
+#content-body{
+	margin-top:10%;}
