@@ -1,8 +1,16 @@
+body {
+    color: #cccccc;
+}
+
+a:link {color: #000000; text-decoration: underline; }
+a:active {color: #0000ff; text-decoration: underline; }
+a:visited {color: #008000; text-decoration: underline; }
+a:hover {color: #ff0000; text-decoration: none; }
+
 .navbox 
 	{border: 15px solid;
 	border-color: #cccccc;
-	font-family: 'Sigmar One';
-	font-color: green;
+	font-family: 'Open Sans', sans-serif;
 	height: 90px;
 	width: 100px;
 	display: inline-block;
@@ -10,9 +18,19 @@
 	padding: 20px;
 	font-size:50px;
 	}
+
+a:link {
+color: green;
+  text-decoration: none;
 }
-a {
-    color: green;
+a:visited {color: #6F4E37; 
+  text-decoration: none;
+  }
+
+a:hover {
+  color: green;
+  text-decoration: none;
+    background-color: yellow;
 }
 
 #nav-container {
