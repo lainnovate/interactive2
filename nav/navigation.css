@@ -10,11 +10,6 @@
 	padding: 20px;
 	font-size:50px;
 	}
-
-.navbox a:link {text-decoration:none}
-
-.navbox a:hover { 
-    background-color: yellow;
 }
 a {
     color: green;
@@ -39,6 +34,7 @@ a {
     text-align: center;
     font-size:15px;
     background-color:white;
+
 }
 
 #content-body{
