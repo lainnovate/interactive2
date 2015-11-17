@@ -1,93 +1,1493 @@
-.adiv{display:inline-block;
-	height:150px;
-	width:30px;}
 
-	.b {margin-left:108px;}
+/*A*/
 
+* { box-sizing: border-box; }
 
-.A{
-position:relative;
-left:30px;
-width:62px;
-height:120px;
-border-bottom:solid 3px#000000;
-}
-.A:before{
-transform:skew(-13deg,0);
-position:absolute;
-content:'';
-top:12.5px;
-left:0;
-width:12px;
-height:145px;
-background-color:#000000;
-}
-.A:after{
-transform:skew(13deg,0);
-position:absolute;
-content:'';
-top:12.5px;
-left:45px;
-width:12px;
-height:145px;
-background-color:#000000;
-}
-.zoid1{
-transform:skew(-43deg,0);
-position:absolute;
-content:'';
-top:20.5px;
-left:0;
-width:12px;
-height:65px;
-background-color:yellow;
-border-right:solid 3px#000000;
+.divtwo {height: 200px;
+  width:900px;
+  background: yellow;
+margin-top:200px;}
 
+.letter {
+    width: 76px;
+    height: 145px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
 }
 
-.zoid1:before{
-transform:skew(-23deg,0);
-position:absolute;
-content:'';
-top:20.5px;
-left:0;
-width:12px;
-height:65px;
-background-color:red;
-border-right:solid 3px#000000;
+.a .left-bar {
+   position: absolute;
+   width: 10px;
+   height: 145px;
+   left: 14px;
+   background: black;
+   transform: skew(-10.5deg,0);
+    z-index: 2;
+}
 
+.a .right-bar {
+   position: absolute;
+   width: 10px;
+   height: 145px;
+   right: 14px;
+   background: black;
+   transform: skew(10.5deg,0);
+    z-index: 2;
+}
+
+.a .middle-bar {
+   position: absolute;
+   width: 40px;
+   height: 4px;
+   top: 88px;
+   left: 20px;
+   background: black;
+   transform: skew(10.5deg,0);
+}
+
+.a .yellow-facet {
+    position: absolute;
+    width: 19px;
+    height: 63px;
+    left: 22px;
+    top: 50px;
+    background: yellow;
+    border: 4px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.a .blue-facet {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    left: 33px;
+    top: 69px;
+    background: blue;
+}
+
+.a .red-facet {
+    position: absolute;
+    width: 48px;
+    height: 20px;
+    left: 14px;
+    top: 89px;
+    background: red;
+    border: 3px solid black;
+}
+
+.a .left-bar-mask {
+   position: absolute;
+   width: 10px;
+   height: 145px;
+   left: 4px;
+   background: white;
+   transform: skew(-10.5deg,0);
+}
+
+.a .right-bar-mask {
+   position: absolute;
+   width: 10px;
+   height: 145px;
+   right: 4px;
+   background: white;
+   transform: skew(10.5deg,0);
 }
 
 
 
+/*B*/
+* { box-sizing: border-box; }
+
+.letterb {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.b .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.b .left-bar-red {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: red;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.b .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.b .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 60px;
+   left: 46px;
+   background: white;
+   border: 3px solid black;
+}
+
+.b .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 88px;
+   top: 57px;
+   left: 58px;
+   background: white;
+   border: 3px solid black;
+}
+.b .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.b .left-bar-bottom {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 142px;
+   left: 2px;
+   background: black;
+
+}
+.b .middle-bar {
+   position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 57px;
+   left: 12px;
+   background: black;
+}
+
+/*C */
+* { box-sizing: border-box; }
+
+.letterc {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.c .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.c .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.c .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.c .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 35px;
+   left: 56px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.c .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 35px;
+   top: 110px;
+   left: 56px;
+   background: red;
+   border: 3px solid black;
+}
+.c .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.c .left-bar-bottom {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 142px;
+   left: 2px;
+   background: black;
+
+}
+
+/*D*/
+* { box-sizing: border-box; }
+
+.letterd {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.d .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.d .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.d .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.d .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 92px;
+   left: 57px;
+   top:26px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.d .top-bar {
+  position: absolute;
+   width: 50px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.d .left-bar-bottom {
+  position: absolute;
+   width: 50px;
+   height: 3px;
+   top: 142px;
+   left: 2px;
+   background: black;
+
+}
+
+.d .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 45px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.d .yellow-facet-top {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 45px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+.d .mask {
+   position: absolute;
+   width: 4px;
+   height: 145px;
+   right: 0px;
+   background: white;
+}
 
 
-.B{
-position:relative;
-top:0px;
-left:10px;
-width:60px;
-height:146px;
-border-left:solid 12px#000000;
+/*E*/
+* { box-sizing: border-box; }
+
+.lettere {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
 }
-.B:before{
-position:absolute;
-content:'';
-width:52px;
-height:39px;
-border-width:15px15px10px0;
-border-color:#000000;
-border-style:solid;
-border-radius:0 240%180%0 /0 180%180%0;
+
+.e .left-bar-black {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
 }
-.B:after{
-position:absolute;
-content:'';
-bottom:0;
-width:58px;
-height:43px;
-border-width:10px15px15px0;
-border-color:#000000;
-border-style:solid;
-border-radius:0 180%220%0 /0 180%180%0;
+
+.e .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 0px;
+   top: 0px;
+   left: 2px;
+   border: 2px solid black;
+
 }
+
+.e .left-bar-bottom-red {
+  position: absolute;
+   width: 59px;
+   height: 0px;
+   top: 141px;
+   left: 2px;
+   border: 2px solid black;
+
+
+}
+.e .middle-bar {
+    position: absolute;
+   width: 35px;
+   height: 0px;
+   top: 57px;
+   left: 10px;
+   border: 2px solid black;
+}
+/*F*/
+* { box-sizing: border-box; }
+
+.letterf {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.f .left-bar-black {
+   position: absolute;
+   width: 13px;
+   height: 145px;
+   left: 0px;
+   background: black;
+    z-index: 2;
+}
+
+.f .top-bar {
+  position: absolute;
+   width: 59px;
+   top: 0px;
+   left: 2px;
+   border: 2px solid black;
+   background: yellow;
+
+}
+
+.f .middle-bar {
+    position: absolute;
+   width: 35px;
+   height: 15px;
+   top: 57px;
+   left: 10px;
+   border: 3px solid black;
+   background: white;
+}
+
+
+/*G*/
+* { box-sizing: border-box; }
+
+.letterg {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.g .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 50px;
+   right: 0px;
+   top: 95px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.g .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 92px;
+   right: 57px;
+   top:26px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.g .top-bar {
+  position: absolute;
+   width: 50px;
+   height: 3px;
+   top: 0px;
+   left: 25px;
+   background: black;
+}
+
+.g .left-bar-bottom {
+  position: absolute;
+   width: 50px;
+   height: 3px;
+   top: 142px;
+   left: 25px;
+   background: black;
+
+}
+
+.g .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    right: 45px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+.g .yellow-facet-top {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    right: 45px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.g .mask {
+   position: absolute;
+   width: 4px;
+   height: 145px;
+   left: 0px;
+   background: white;
+}
+
+.g .left-bar-middle {
+  position: absolute;
+   width: 26px;
+   height: 3px;
+   top: 95px;
+   left: 40px;
+   background: black;
+}
+
+
+/*H*/
+* { box-sizing: border-box; }
+
+.letterh {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.h .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   top: 0px;
+   right: 0px;
+   background: red;
+   border: 3px solid black;
+}
+.h .top-bar {
+  position: absolute;
+   width: 61px;
+   height: 3px;
+   top: 95px;
+   left: 1px;
+   background: black;
+}
+
+/*I*/
+* { box-sizing: border-box; }
+
+.letteri {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.i .left-bar-black {
+   position: absolute;
+   width: 13px;
+   height: 145px;
+   left: 50%;
+   background: black;
+}
+
+.i .top-bar {
+  position: absolute;
+   width: 66px;
+   height: 15px;
+  left: 13%;
+   top: 0px;
+   border: 3px solid black;
+   background: yellow;
+
+}
+
+.i .bottom-bar {
+    position: absolute;
+   width: 66px;
+   height: 15px;
+   bottom: 0px;
+   left: 13%;
+   border: 3px solid black;
+   background: white;
+}
+
+/*J*/
+* { box-sizing: border-box; }
+
+.letterj {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.j .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   right: 0px;
+   top: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+
+.j .left-bar-bottom {
+  position: absolute;
+   width: 50px;
+   height: 3px;
+   top: 142px;
+   left: 25px;
+   background: black;
+
+}
+
+.j .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    right: 45px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+/*K*/
+* { box-sizing: border-box; }
+
+.letterk {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.k .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.k .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.k .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.k .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 41px;
+    left: 27px;
+    top: 30px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.k .yellow-facet-top {
+    position: absolute;
+    width: 18px;
+    height: 79px;
+    left: 37px;
+    top: 66px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(31.5deg,0);
+  }
+
+  /* L*/
+
+* { box-sizing: border-box; }
+
+.letterl {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.l .left-bar-black {
+   position: absolute;
+   width: 13px;
+   height: 145px;
+   left: 0px;
+   background: black;
+    z-index: 2;
+}
+
+
+.l .left-bar-bottom-red {
+  position: absolute;
+   width: 59px;
+   height: 15px;
+   top: 130px;
+   left: 2px;
+   border: 3px solid black;
+   background: red;
+
+}
+
+/*M*/
+* { box-sizing: border-box; }
+
+.letterm {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.m .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.m .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.m .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.m .right-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   right: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.m .right-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   right: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.m .right-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   right: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.m .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 27px;
+    left: 39px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.m .yellow-facet-top {
+    position: absolute;
+    width: 18px;
+    height: 27px;
+    left: 20px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(31.5deg,0);
+  }
+
+/* N*/
+* { box-sizing: border-box; }
+
+.lettern {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.n .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.n .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.n .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.n .right-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   right: 9px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.n .right-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   right: 9px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.n .right-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   right: 9px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.n .yellow-facet-top {
+    position: absolute;
+    height: 145px;
+    left: 32px;
+    top: 0px;
+    background: yellow;
+    border: 2px solid black;
+    transform: skew(14.5deg,0);
+  }
+
+/* O*/
+* { box-sizing: border-box; }
+
+.lettero {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.o .right-bar {
+   position: absolute;
+   width: 15px;
+   height: 92px;
+   left: 57px;
+   top:26px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.o .left-bar {
+   position: absolute;
+   width: 15px;
+   height: 92px;
+   right: 49px;
+   top:26px;
+   background: blue;
+   border: 3px solid black;
+}
+
+
+.o .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 45px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.o .yellow-facet-top {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 45px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+.o .mask {
+   position: absolute;
+   width: 4px;
+   height: 145px;
+   right: 0px;
+   background: white;
+}
+
+.o .yellow-facet-bottom-left {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 20px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+.o .yellow-facet-top-left {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 20px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.o .mask-right {
+   position: absolute;
+   width: 12px;
+   height: 145px;
+   left: 0px;
+   background: white;
+}
+
+/*P*/
+* { box-sizing: border-box; }
+
+.letterp {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.p .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+}
+
+.p .left-bar-red {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: red;
+   border: 3px solid black;
+}
+
+.p .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.p .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 68px;
+   left: 57px;
+   background: white;
+   border: 3px solid black;
+}
+
+.p .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.p .middle-bar {
+   position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 65px;
+   left: 12px;
+   background: black;
+}
+
+/*
+Q*/
+* { box-sizing: border-box; }
+
+.letterq {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.q .right-bar {
+   position: absolute;
+   width: 15px;
+   height: 92px;
+   left: 57px;
+   top:26px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.q .left-bar {
+   position: absolute;
+   width: 15px;
+   height: 92px;
+   right: 49px;
+   top:26px;
+   background: blue;
+   border: 3px solid black;
+}
+
+
+.q .yellow-facet-bottom {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 45px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.q .yellow-facet-top {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 45px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+.q .mask {
+   position: absolute;
+   width: 4px;
+   height: 145px;
+   right: 0px;
+   background: white;
+}
+
+.q .yellow-facet-bottom-left {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 20px;
+    top: 116px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(40.5deg,0);
+}
+
+.q .yellow-facet-top-left {
+    position: absolute;
+    width: 19px;
+    height: 29px;
+    left: 20px;
+    top: 0px;
+    background: yellow;
+    border: 3px solid black;
+    transform: skew(-40.5deg,0);
+}
+
+.q .mask-right {
+   position: absolute;
+   width: 12px;
+   height: 145px;
+   left: 0px;
+   background: white;
+}
+
+.q .qslash {
+    position: absolute;
+    width: 3px;
+    height: 29px;
+    left: 55px;
+    top: 116px;
+    background: black;
+    border: 1px solid black;
+    transform: skew(40.5deg,0);
+}
+
+/*R*/
+* { box-sizing: border-box; }
+
+.letterr {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.r .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+}
+
+.r .left-bar-red {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: red;
+   border: 3px solid black;
+}
+
+.r .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+}
+
+.r .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 68px;
+   left: 57px;
+   background: white;
+   border: 3px solid black;
+}
+
+.r .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.r .middle-bar {
+   position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 65px;
+   left: 12px;
+   background: black;
+}
+.r .rslash {
+    position: absolute;
+    width: 3px;
+    height: 113px;
+    left: 40px;
+    top: 32px;
+    background: black;
+    border: 1px solid black;
+    transform: skew(29.5deg,0);
+}
+
+/*S*/
+
+* { box-sizing: border-box; }
+
+.letters {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.s .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   top: 100px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.s .left-bar-red {
+   position: absolute;
+   width: 15px;
+   height: 60px;
+   left: 0px;
+   background: red;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.s .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 35px;
+   left: 46px;
+   background: white;
+   border: 3px solid black;
+}
+
+.s .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 88px;
+   top: 57px;
+   left: 58px;
+   background: white;
+   border: 3px solid black;
+}
+.s .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.s .left-bar-bottom {
+  position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 142px;
+   left: 2px;
+   background: black;
+
+}
+.s .middle-bar {
+   position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 57px;
+   left: 12px;
+   background: black;
+}
+/*
+T*/
+
+* { box-sizing: border-box; }
+
+.lettert {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.t .left-bar-black {
+   position: absolute;
+   width: 3px;
+   height: 145px;
+   left: 50%;
+   background: black;
+}
+
+.t .top-bar {
+  position: absolute;
+   width: 100%;
+   height: 15px;
+   top: 0px;
+   border: 3px solid black;
+   background: yellow;
+
+}
+
+/*
+U*/
+* { box-sizing: border-box; }
+
+.letteru {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.u .left-bar-yellow {
+   position: absolute;
+   width: 3px;
+   height: 145px;
+   left: 0px;
+   background: black;
+    z-index: 2;
+}
+
+.u .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   top: 0px;
+   right: 0px;
+   background: red;
+   border: 3px solid black;
+}
+.u .bottom-bar {
+  position: absolute;
+   width: 61px;
+   height: 3px;
+   bottom: 0px;
+   left: 1px;
+   background: black;
+}
+
+/*V*/
+* { box-sizing: border-box; }
+
+.letterv {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.v .left-bar-yellow {
+   position: absolute;
+   width: 3px;
+   height: 145px;
+   left: 15px;
+   background: black;
+     transform: skew(10.5deg,0);
+}
+
+.v .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   top: 0px;
+   right: 17px;
+   background: red;
+   border: 3px solid black;
+     transform: skew(-10.5deg,0);
+}
+
+}
+

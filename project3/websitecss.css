@@ -1,0 +1,250 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.vertical-one {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 40%;
+	height: 100%;
+	background: yellow;
+}
+
+.vertical-two {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 60%;
+	height: 100%;
+	background: red;
+	border-left: 15px solid black;
+}
+
+.horizontal-three {
+	height: 33.333%;
+	width: 100%;
+	background: white;
+	border-bottom: 15px solid black;
+}
+
+.horizontal.last {
+	border-bottom: 0;
+}
+
+.horizontal-top {
+	height: 66.667%;
+	border-bottom: 15px solid black;
+}
+
+.horizontal-bottom {
+	height: 33.333%;
+}
+
+/*H*/
+* { box-sizing: border-box; }
+
+.letterh {
+    width: 76;
+    height: 145%;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.h .left-bar-yellow {
+   position: absolute;
+   width: 25%;
+   height: 100%;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   top: 0px;
+   right: 0px;
+   background: red;
+   border: 3px solid black;
+}
+.h .top-bar {
+  position: absolute;
+   width: 61px;
+   height: 3px;
+   top: 95px;
+   left: 1px;
+   background: black;
+}
+
+
+/*.redbox {
+	display: inline-block;
+	height: 300px;
+	width:200px;
+	background:red;
+	border: 10px solid black;
+	}
+
+.bluebox {
+	display: inline-block;
+	height: 300px;
+	width:200px;
+	background:blue;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	}
+
+.letterbox{
+	display: inline-block;
+	height: 300px;
+	width:200px;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+}
+.hoverbox{
+	display: inline-block;
+	height: 300px;
+	width:200px;
+	background:blue;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+}
+.hoverbox:hover{opacity: 0.0;}
+
+/*H*/
+/** { box-sizing: border-box; }
+
+.letterh {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.h .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-white {
+   position: absolute;
+   width: 15px;
+   height: 45px;
+   left: 0px;
+   background: white;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-blue {
+   position: absolute;
+   width: 15px;
+   height: 105px;
+   left: 0px;
+   background: blue;
+   border: 3px solid black;
+    z-index: 2;
+}
+
+.h .left-bar-middle {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   top: 0px;
+   right: 0px;
+   background: red;
+   border: 3px solid black;
+}
+.h .top-bar {
+  position: absolute;
+   width: 61px;
+   height: 3px;
+   top: 95px;
+   left: 1px;
+   background: black;
+}
+
+/*I*/
+/** { box-sizing: border-box; }
+
+.letteri {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.i .left-bar-black {
+   position: absolute;
+   width: 13px;
+   height: 145px;
+   left: 50%;
+   background: black;
+    z-index: 2;
+}
+
+.i .top-bar {
+  position: absolute;
+   width: 66px;
+   height: 15px;
+  left: 13%;
+   top: 0px;
+   border: 3px solid black;
+   background: yellow;
+
+}
+
+.i .bottom-bar {
+    position: absolute;
+   width: 66px;
+   height: 15px;
+   bottom: 0px;
+   left: 13%;
+   border: 3px solid black;
+   background: white;
+}
+**//*/
