@@ -10,7 +10,7 @@ width:300px;
 display:inline-block;
 position:relative;
 margin-top:20%;
-margin-left: 39.5%;
+margin-left: 48.5%;
 }
 
 .letter {
@@ -1748,7 +1748,8 @@ margin-left:39.5%;
 /*1*/
 * { box-sizing: border-box; }
 
-.one {
+
+.letterone{
     width: 76px;
     height: 145px;
     left: 100px;
@@ -1798,6 +1799,68 @@ margin-left:39.5%;
   background:yellow;
   display:inline-block;
   position:absolute;
+}
+
+/*2*/
+* { box-sizing: border-box; }
+
+.lettertwo {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #ffffff;
+}
+
+.two .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 80px;
+   top:65px;
+   left: 0px;
+   background: yellow;
+   border: 3px solid black;
+}
+.two .left-bar-yellow:hover { 
+    background-color: blue;
+}
+
+.two .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 68px;
+   left: 64px;
+   background: black;
+   border: 3px solid black;
+}
+
+.two .left-bar-bottom {
+   position: absolute;
+   width: 15px;
+   height: 68px;
+   left: 64px;
+   top:80px;
+   background: black;
+   border: 3px solid black;
+}
+
+.two .top-bar {
+  position: absolute;
+   width: 65px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.two .middle-bar {
+   position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 65px;
+   left: 12px;
+   background: black;
 }
 
 
