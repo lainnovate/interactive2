@@ -1439,7 +1439,7 @@ T*/
 
 .t .left-bar-black {
    position: absolute;
-   width: 3px;
+   width: 15px;
    height: 145px;
    left: 50%;
    background: black;
@@ -1447,9 +1447,10 @@ T*/
 
 .t .top-bar {
   position: absolute;
-   width: 100%;
+   width: 80px;
    height: 15px;
    top: 0px;
+   left: 3px;
    border: 3px solid black;
    background: red;
 }
@@ -1508,7 +1509,6 @@ display:inline-block;
 position:relative;
 margin-left:39.5%;
 }
-
 /*V*/
 * { box-sizing: border-box; }
 
@@ -1736,13 +1736,20 @@ margin-left:39.5%;
 }
 
 .numbersdiv {
-  height:500px;
-  width:300%;
+  height:900px;
+  width:300px;
   right:0%;
   top: 98%;
   display:inline-block;
   position:absolute;
+  background:orange;
 
+}
+.vwxdiv {height:146px;
+width:300px;
+display:inline-block;
+position:relative;
+margin-left:39.5%;
 }
 
 /*1*/
@@ -1862,5 +1869,114 @@ margin-left:39.5%;
    left: 12px;
    background: black;
 }
+
+.two .middle-bar-2 {
+   position: absolute;
+   width: 68px;
+   height: 3px;
+   top: 142px;
+   left: 12px;
+   background: black;
+}
+
+
+/*2*/
+* { box-sizing: border-box; }
+
+.letterthree {
+    width: 76px;
+    height: 145px;
+    display: inline-block;
+    position: relative;
+    background: #ffffff;
+}
+
+.three .left-bar-yellow {
+   position: absolute;
+   width: 15px;
+   height: 80px;
+   top:65px;
+   right: 0px;
+   background: yellow;
+   border: 3px solid black;
+}
+.three .left-bar-yellow:hover { 
+    background-color: blue;
+}
+
+.three .left-bar-top {
+   position: absolute;
+   width: 15px;
+   height: 145px;
+   left: 64px;
+   background: black;
+   border: 3px solid black;
+}
+
+.three .left-bar-bottom {
+   position: absolute;
+   width: 15px;
+   height: 68px;
+   left: 64px;
+   top:80px;
+   background: black;
+   border: 3px solid black;
+}
+
+.three .top-bar {
+  position: absolute;
+   width: 65px;
+   height: 3px;
+   top: 0px;
+   left: 1px;
+   background: black;
+}
+
+.three .middle-bar {
+   position: absolute;
+   width: 59px;
+   height: 3px;
+   top: 65px;
+   left: 12px;
+   background: black;
+}
+
+.three .middle-bar-2 {
+   position: absolute;
+   width: 68px;
+   height: 3px;
+   top: 142px;
+   left: 12px;
+   background: black;
+}
+
+
+
+* { box-sizing: border-box; }
+
+.letterfour {
+    width: 76px;
+    height: 145px;
+    left: 100px;
+    display: inline-block;
+    position: relative;
+    background: #ffffff;
+}
+
+
+.four .top-bar {
+  position: absolute;
+   width: 59px;
+   height: 15px;
+   top: 95px;
+   left: 5px;
+   background: red;
+    border: 3px solid black;
+    z-index:1;
+}
+.four .top-bar:hover { 
+    background-color: white;
+}
+
 
 
