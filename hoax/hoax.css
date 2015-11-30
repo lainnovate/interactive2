@@ -1,0 +1,116 @@
+* { box-sizing: border-box; }
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 21px;
+	font-family: 'Noto Serif', serif;
+	color:#545454;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/* Daily reflections */
+
+.daily-reflections {
+	background: #f4e9e0;
+	padding: 50px;
+}
+
+.daily-reflections .date {
+	width: 20%;
+	float: left;
+	font-family: 'Signika', sans-serif;
+	font-size:40px;
+	color: rgb(80, 143, 255);;
+}
+.number {font-size:72px;
+		line-height: .5em}
+
+.daily-reflections .text {
+	width: 80%;
+	float: left;
+}
+
+.clearer {
+	clear: both;
+}
+
+/* Find SA */
+
+.find-sa {
+	background: rgb(80, 143, 255);
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+	padding: 50px;
+}
+
+.find-sa .slogan {
+	width: 70%;
+	float: left;
+	font-size: 63px;
+	color: #ffffff;
+}
+
+.find-sa .zip-code {
+	width: 30%;
+	margin-top:4%;
+	float: left;
+	background: #ffffff;
+}
+.heading {font-family: 'Signika', sans-serif;}
+
+/* Triple */
+
+.triple {
+	background: #f4e9e0;
+}
+
+.triple .one,
+.triple .two,
+.triple .three {
+	width: 33.33%;
+	float: left;
+	padding: 50px;
+	text-align: center;
+}
+
+.triple .two {
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+}
+
+/* pic */
+
+
+.picone {
+	height:35%;
+	width:100%;
+
+}
+
+ #bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  	  z-index:-1;
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  max-height: 100%;
+}
+ 
+
