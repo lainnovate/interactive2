@@ -61,34 +61,30 @@ a {
 .find-sa .slogan {
 	width: 70%;
 	float: left;
-	font-size: 63px;
+	font-size: 40px;
 	color: #ffffff;
+	margin-bottom: 20px;
 }
 
-.find-sa .zip-code {
-	width: 30%;
-	margin-top:4%;
-	float: left;
-	background: #ffffff;
-}
+
 .heading {font-family: 'Signika', sans-serif;}
 
 /* Triple */
 
-.triple {
+.quizfields { margin-top:20px;
 
 }
 
-.triple .one,
-.triple .two,
-.triple .three {
+.quizfields .one,
+.quizfields .two,
+.quizfields .three {
 	width: 33.33%;
 	float: left;
-	padding: 50px;
+	padding: 25px;
 	text-align: center;
 }
 
-.triple .two {
+.quizfields .two {
 	border-left: 4px solid white;
 	border-right: 4px solid white;
 }
@@ -141,3 +137,52 @@ float: right;
 
 .quiztext {font-size:40px;
 	padding:5%;}
+
+/* Radio buttons for quiz */
+
+.answer {
+	margin-top: 12px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+  color: black;
+}
+
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+input[type="radio"] + label span {
+	width: 100px;
+	height: 100px;
+	background: white;
+	border:2px solid black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+input[type="radio"]:checked + label span {
+  background: black;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+  -webkit-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
+}
