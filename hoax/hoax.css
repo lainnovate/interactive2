@@ -35,7 +35,7 @@ a {
 	float: left;
 	font-family: 'Signika', sans-serif;
 	font-size:40px;
-	color: rgb(80, 143, 255);;
+	color: rgb(80, 143, 255);
 }
 .number {font-size:72px;
 		line-height: .5em}
@@ -129,3 +129,20 @@ input[type="text"] {
 input[type="text"]:focus {
   outline: none;
 }
+
+/*media q's*/
+
+@media screen and (max-width: 610px) {
+	body {background: blue !important;}
+}
+
+body {font-size:10px
+}
+
+@media screen and (max-width: 610px) {
+#room-message {
+	position:static;
+	text-align:left;
+}
+
+
