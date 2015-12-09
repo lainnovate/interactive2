@@ -21,7 +21,10 @@ a {
 	width: 100%;
 	margin: 0 auto;
 }
-
+.container2 {
+	width: 80%;
+	margin: 0 auto;
+}
 
 /* Daily reflections */
 
@@ -87,10 +90,22 @@ a {
 	padding: 50px;
 	text-align: center;
 }
+.triple .one {
+background-image: url('razor.png');
+    background-repeat: no-repeat;
+    background-size:60%;
+}
 
 .triple .two {
-	border-left: 4px solid white;
-	border-right: 4px solid white;
+background-image: url('book.png');
+    background-repeat: no-repeat;
+    background-size:60%;
+}
+
+.triple .three {
+background-image: url('computer.png');
+    background-repeat: no-repeat;
+    background-size:60%;
 }
 
 
@@ -132,7 +147,27 @@ input[type="text"]:focus {
 
 /*media q's*/
 
-@media screen and (max-width: 610px) {
+ @media only screen and (max-width: 600px) {
+    .container { width: 100%;}
+    .container2 { width: 30%;}
+
+
+    .triple .one { width: 50%;
+    	background-size: 25%;}
+
+    .triple .two { width: 50%;
+    	background-size: 25%;}
+
+    .triple .three { width: 50%;
+    	background-size: 25%;}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 610px) {
 	body {background: blue !important;}
 }
 
@@ -144,5 +179,5 @@ body {font-size:10px
 	position:static;
 	text-align:left;
 }
-
+*/
 
