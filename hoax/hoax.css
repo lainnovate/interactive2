@@ -87,8 +87,12 @@ a {
 .triple .three {
 	width: 33.33%;
 	float: left;
-	padding: 50px;
+	padding: 129px;
 	text-align: center;
+	font-family: 'Signika', sans-serif;
+	font-size: 25px;
+	color:#545454;
+
 }
 .triple .one {
 background-image: url('razor.png');
@@ -113,13 +117,12 @@ background-image: url('computer.png');
 
 
 .picone {
-	height:35%;
-	width:100%;
+	background-size:100%;
 
 }
 
  #bg {
-  position: fixed; 
+  position: relative; 
   top: 0; 
   left: 0; 
   	  z-index:-1;
@@ -127,6 +130,19 @@ background-image: url('computer.png');
   /* Preserve aspet ratio */
   min-width: 100%;
   max-height: 100%;
+}
+
+.header {
+  position: absolute; 
+	height:35%;
+	width:50%;
+	background-size:100%;
+	padding-top:4%;
+	padding-left:10%;
+	font-family: 'Signika', sans-serif;
+	font-size:50px;
+	color:white;
+
 }
  
 /* Input zip code */
@@ -146,21 +162,49 @@ input[type="text"]:focus {
 }
 
 /*media q's*/
+@media only screen and (max-width: 821px) {
+    .triple .one {display: block;}
+
+    .triple .two {display: block;}
+
+    .triple .three {display: block;}
+
 
  @media only screen and (max-width: 600px) {
     .container { width: 100%;}
     .container2 { width: 30%;}
+    .text {font-size: 18px;
+    	margin-top:40%;}
+    .picone {width: 30%;}
 
+    .slogan { font-size: 25px;}
 
     .triple .one { width: 50%;
-    	background-size: 25%;}
+    	background-size: 70%;}
 
     .triple .two { width: 50%;
-    	background-size: 25%;}
+    	background-size: 70%;}
 
     .triple .three { width: 50%;
+    	background-size: 70%;}
+
+ @media only screen and (max-width: 475px) {
+ 	     .header { font-size: 233%;}
+
+ }
+
+@media only screen and (max-width: 375px) {
+    .container { width: 100%;}
+
+
+    .triple .one { width: 30%;
     	background-size: 25%;}
 
+    .triple .two { width: 30%;
+    	background-size: 25%;}
+
+    .triple .three { width: 30%;
+    	background-size: 25%;}
 
 
 
